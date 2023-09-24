@@ -4,6 +4,8 @@ steps:
 
 2. create folder called /video
 
+eg: https://prnt.sc/dvUJV-oyhX_Z
+
 3. dump your mp4 files in it. filenames should be in this order
 
 video_01
@@ -11,6 +13,8 @@ video_02
 video_03
 
 and so on..
+
+eg: https://prnt.sc/PifgbRmB00K4
 
 4. Launch index.html in your browser
 
