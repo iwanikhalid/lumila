@@ -48,7 +48,7 @@ $(document).ready(function () {
 	  // i: position in array
 	  // v: value in that position
 	  
-	  $( "#thumbs" ).prepend('<div class=thumb genstyle><video controls><source src=video/video_' + v + '.mp4 type=video/mp4></video></div>');
+	  $( "#thumbs" ).prepend('<div class=thumb genstyle><video controls preload=auto><source src=video/video_' + v + '.mp4#t=0.001 type=video/mp4></video></div>');
 	});
 
 }) 

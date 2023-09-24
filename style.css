@@ -14,7 +14,7 @@ h1 { text-align: center; }
 body.dark #thumbs { border-color: gold; }
 	
 /* spaces between */
-video { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
+video { background: #000; margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
 h1, #mainvideo, #thumbs { margin: 40px 0; }
 	
 /* aeshetics */
