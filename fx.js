@@ -43,7 +43,7 @@ $(document).ready(function () {
 	}	
 	
 	$.each(videoFilenames, function( i, v ) {
-	  alert(i + ": " + v );
+	  // alert(i + ": " + v );
 	  var i = Math.floor(Math.random() * videoFilenames.length);
 	  // i: position in array
 	  // v: value in that position
