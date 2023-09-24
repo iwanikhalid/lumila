@@ -1,13 +1,5 @@
 $(document).ready(function () {
-	 $("video").on("play", function (e) {
-		//alert("playing");
-			$('video').not(this).each(function(){
-				var $playpause = $(this);
-				video = $playpause[0];
-				video.pause();
-			});
-	 });
-	 
+// dark mode switcher	 
     $('.checkbox').change(function() {
         //if(this.checked) {
 			$('body').toggleClass("dark"); //you can list several class names 
@@ -49,6 +41,16 @@ $(document).ready(function () {
 	  // v: value in that position
 	  
 	  $( "#thumbs" ).prepend('<div class=thumb genstyle><video controls preload=auto><source src=video/video_' + v + '.mp4#t=0.001 type=video/mp4></video></div>');
+
+	 $("video").on("play", function (e) {
+		//alert("playing");
+			$('video').not(this).each(function(){
+				var $playpause = $(this);
+				video = $playpause[0];
+				video.pause();
+			});
+	 });	  
+	  
 	});
 
 }) 
