@@ -1,0 +1,57 @@
+
+body { margin: 2% 5%; font-family: 'Roboto', sans-serif; color: #333; }
+body.dark { color: #fff; background: #333; }
+.genstyle { background: gold; padding: 0;  margin: 10px; color: white;  font-weight: bold; font-size: 2em; text-align: center; }
+h1 { text-align: center; }
+
+#mainvideo { padding: 0; 
+  display: flex; flex-flow: row wrap; justify-content: center;  }
+	.main { font-size: 0;  }
+
+#thumbs {  padding: 30px; border: 1px solid silver; 
+  display: flex; flex-flow: row wrap; /*justify-content: flex-start;*/ justify-content: space-between; align-items: start; }
+	.thumb { width: 441px; height: 250px; font-size: 0; margin: 0 0 30px 0; padding: 0; }
+body.dark #thumbs { border-color: gold; }
+	
+/* spaces between */
+video { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
+h1, #mainvideo, #thumbs { margin: 40px 0; }
+	
+/* aeshetics */
+.bgswitcher {   display: flex; justify-content: flex-end;  }
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 44px;
+  height: 17px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon-o {color: #f1c40f;}
+
+.fa-sun-o {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
