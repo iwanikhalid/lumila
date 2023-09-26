@@ -2,23 +2,22 @@ For end users:
 
 1. click Code -> Download ZIP file then extract anywhere on your PC/Phone/Tablet
 
-2. create folder called /video in your extracted folder
+2. dump as many mp4 files you want in /video. filenames should be in this order
 
-example: https://prnt.sc/dvUJV-oyhX_Z
+video_1
+video_2
+video_3
+video_4
+video_5
+video_6
+video_7
+video_8
+video_9
+video_10
 
-3. dump 7 mp4 files in it. filenames should be in this order
+and so on...
 
-video_01
-video_02
-video_03
-video_04
-video_05
-video_06
-video_07
-
-example: https://prnt.sc/PifgbRmB00K4
-
-watch out for beta update to unlock unlimited video
+Default no of videos shown is 2. Click the lock icon and insert 'durian' as the password to enter your custom no of videos
 
 4. Launch index.html in your browser
 
