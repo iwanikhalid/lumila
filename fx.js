@@ -7,7 +7,7 @@ $(document).ready(function () {
 	
 	// CAN EDIT:: Insert numbers here for permanent listing
 	// Listing the filenames in array
-	var videoFilenames = ["1", "2"];
+	var videoFilenames = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 	
 	// Admin Button
 	$('#admin').click(function(){
@@ -51,9 +51,9 @@ $(document).ready(function () {
 				return idx + min;
 			});
 			//var videoFilenames = videoFilenamesCustom;
-			//alert(videoFilenames);
+			console.log(videoFilenames);
 			//console.log(x);
-			//alert(videoFilenamesCustom);
+			console.log(videoFilenamesCustom);
 			
 					videoFilenamesCustom = randomize(videoFilenamesCustom);
 					function randomize(arr) {
